@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+    font-family: sans-serif;
+}
+.container{
+    width: 80%;
+    margin-right:auto;
+    margin-left: auto;    
+}
+
+.container input{
+    width: 60%;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.main-block{
+    background-color: #ffffff;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.main-block .card{
+    width: 30%;
+    background-color: lightblue;
+    margin-top: 30px;
+    text-align: center;
+    padding: 30px;
+}
